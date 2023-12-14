@@ -1,0 +1,1 @@
+alert('Java script este activat')
