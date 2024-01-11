@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var d = new Date();
+        // var time = d.getHours();
+        let time = 8
+        if (time >= 17){
+            document.write("<b>Buna seara!</b>");
+        }
+        else if( time >=12 && time <17){
+            document.write("<b>Buna ziua</b>");
+        }
+        else if(time >=6 && time < 12){
+            document.write("<b>Buna dimineata!</b>");
+        }
+        else{
+            document.write("<b>Noapte buna!</b>")
+        }
+    </script>
+</body>
+</html>
